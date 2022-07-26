@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Menu Dropdown</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="../menuDropdownJavaScript/css/style.css" rel="stylesheet">
+        <link href="../menuDropdownJavaScript/css/style.css" rel="stylesheet">
+        <script src="../menuDropdownJavaScript/js/all.js" defer></script>
+        <script src="../menuDropdownJavaScript/js/script.js" defer></script>
+    </head>
+    <body>
+        <nav class="navbar">
+            <h1 class="navbar_logo"><a href="#">MenuDropdown</a></h1>
+
+            <ul class="navbar_menu">
+                <li class="navbar_item"><a href="#">Home</a></li>
+
+                <li class="navbar_item">
+                    <a class="dropdown" href="#">Cursos</a>
+                    <div class="submenu">
+                        <img src="../menuDropdownJavaScript/img/imagemSub.jpeg">
+
+                            <div class="submenu_itens">
+                                <div class="submenu_item">
+                                    <p><i class="fab fa-html5"></i></p>
+                                    <h4>Curso de Html5</h4>
+                                </div>
+
+                                <div class="submenu_item">
+                                        <p><i class="fab fa-css3"></i></p>
+                                        <h4>Curso de Css3</h4>
+                                </div>
+
+                                <div class="submenu_item">
+                                            <p><i class="fab fa-js-square"></i></p>
+                                            <h4>Curso de JavaScript</h4>
+                                </div>
+
+                                <div class="submenu_item">
+                                        <p><i class="fab fa-react"></i></p>
+                                        <h4>Curso de React</h4>
+                                </div>
+
+                                <div class="submenu_item">
+                                        <p><i class="fab fa-angular"></i></p>
+                                        <h4>Curso de Angular</h4>
+                                </div>
+
+                                <div class="submenu_item">
+                                        <p><i class="fab fa-vuejs"></i></p>
+                                        <h4>Curso de Vue</h4>
+                                </div>
+
+                            </div>
+                    </div>
+                </li>
+
+                <li class="navbar_item"><a class="dropdown" href="#">Login</a>
+                    <div class="submenu">
+                        <form class="form">
+                            <input type="email" class="form_input" placeholder="Email">
+                            <input type="password" class="form_input" placeholder="Senha">
+                            <button class="form_btn">Entrar</button>
+                        </form>
+                    </div>
+                
+                </li>
+            </ul>
+
+        </nav>
+    </body>
+</html>
